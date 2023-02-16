@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+a {
+    color: #d059c0;
+    padding: 12px;
+    border: 2px solid #d059c0;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-top: 5px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+a:hover {
+    color: white;
+    background: #d059c0;
+    transition: 0.3s;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: relative;
+    z-index: 100;
+    padding: 20px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #1b07f7b5, #ff41e78a);
+}
+
+.container label {
+    margin: auto;
+    padding-bottom: 15px;
+    display: inline-block;
+    color: white;
+}
+
+button {
+    color: white;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: #1b07f778;
+    border: none;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: rgba(27, 7, 247, 0.68);
+}
+
+
+.cat_photos {
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.cat_col {
+    text-align: center;
+    width: 200px;
+}
+
+.mihail {
+    width: 270px;
+    margin: auto;
+    display: block;
+    transition: 1s;
+}
+
+.mihail:hover {
+    transform: rotate(180deg);
+    transition: 5s;
+}
+
+.pred_input {
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+
+.standoff2 {
+    background-color: #ffd01ba6;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.ktoto {
+    height: 50px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 105px;
+    transition: 3s;
+}
+
+.k1 {
+    left: 50px;
+}
+
+.k2 {
+    right: 50px;
+}
+
+
+
+.standoff2:hover .ktoto {
+    height:50px;
+    width: 50px;
+    transition: 3s;
+}
+
+
+
+.vot {
+    height: 20px;
+    width: 85px;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: 180px;
+    left: 110px;
+    transition: 3s;
+    border-radius: 100px;
+}
+
+.standoff2:hover .vot {
+    height:40px;
+    border-radius:125px;
+    transition: 2s;
+    width: 40px;
+    margin: 30px;
+    background: #f180d2b3;
+    top: 160px;
+}
+
+.z1 {
+    height: 40px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: 110px;
+    transition: 3s;
+    left: 57px;
+}
+
+.z2 {
+    height: 40px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: 110px;
+    transition: 3s;
+    right: 53px;
+}
+
+.standoff2:hover .z2 {
+    height:30px;
+    width: 30px;
+}
+
+.standoff2:hover .z1 {
+    height:30px;
+    width: 30px;
+    left: 65px;
+}
+
+.brow1 {
+    height: 15px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: 75px;
+    left: 57px;
+    transform: rotate(356deg);
+}
+
+.brow2 {
+    height: 15px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: 75px;
+    transition: 2s;
+    right: 57px;
+    transform: rotate(4deg);
+}
+
+.standoff2:hover .brow2 {
+    top: 45px
+}
+
+.link_block {
+    float: right;
+    padding: 20px;
+}
